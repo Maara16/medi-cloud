@@ -5,7 +5,7 @@ import facility2 from "../../assets/images/facility2.jpg"
 const Facilities = () => {
   return (
     <div className="facilities-container">
-        <h3>Our Facilities</h3>
+        <h3>About</h3>
 
         <div className="facilities-wrapper">
 

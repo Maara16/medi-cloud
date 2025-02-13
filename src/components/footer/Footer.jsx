@@ -1,5 +1,5 @@
 import "./footer.css"
-import footerImage from "../../assets/images/footer logo.png"
+import footerImage from "../../assets/images/MC logo.png"
 import ellipse4 from "../../assets/images/Ellipse 4.png"
 import ellipse5 from "../../assets/images/ellipse5.png"
 
@@ -10,17 +10,17 @@ const Footer = () => {
 
                 <div className="footer-logo">
                     <img src={footerImage} alt="footer-logo" />
-                    <p>We aew a medicial clinic,<br />helping you for a better life.</p>
+                    <h2>Medi Cloud.</h2>
                 </div>
 
                 <div className="footer-medic">
                     <ul className="footer-lists">
-                        <li>Medic</li>
+                       
                         <li>Home</li>
-                        <li>Medical Care</li>
-                        <li>Medical Health</li>
-                        <li>Medical Test</li>
-                        <li>Medical Lab</li>
+                        <li>Prescription</li>
+                        <li>Scan Report</li>
+                        <li>Blood Test</li>
+                        <li>Surgery</li>
                     </ul>
                 </div>
 
@@ -49,7 +49,6 @@ const Footer = () => {
                         <li>Contact</li>
                         <li>Austin Texas, 4567 Road Palm</li>
                         <li>+00 123 456 789</li>
-                        <li>medi@test.com</li>
                     </ul>
                 </div>
 
@@ -59,7 +58,7 @@ const Footer = () => {
             </div>
 
             <div className="footer-bottom">
-                <p>&copy; Medic 2028</p>
+                <p>&copy; Medi Cloud 2028</p>
                 <p>Legal Policies</p>
                 <p>Sitemap</p>
                 <p>Cookies</p>

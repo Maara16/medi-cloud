@@ -1,6 +1,6 @@
 import "./navbar.css"
-import logo from "../../assets/images/logo.png"
-import search from "../../assets/images/search.png"
+import logo from "../../assets/images/MC logo.png"
+
 
 const Navbar = () => {
   return (
@@ -8,19 +8,17 @@ const Navbar = () => {
 
       <div className="logo">
         <img src={logo} alt="medic-logo" />
+        <h1>Medi Cloud</h1>
       </div>
 
       <div className="nav-items">
-        <h3>Medical Care</h3>
-        <h3>Medical Health</h3>
-        <h3>Medical Test</h3>
-        <h3>Medical Lab</h3>
-        <h3>Medical Contact</h3>
+        <h3>Home</h3>
+        <h3>Contact</h3>
+        <h3>About</h3>
       </div>
 
       <div className="side-nav-items">
-        <h3>Login</h3>
-        <img src={search} alt="search" />
+        <h3>Register</h3>
       </div>
 
 

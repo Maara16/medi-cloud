@@ -2,10 +2,12 @@
     display: flex;
     padding: 50px;
     background-color: rgba(62, 161, 255, 0.04);
+    justify-content: space-between;
+    gap: 100px;
 }
 
 .banner-content {
-    padding: 0 77px;
+    //padding: 0 77px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,7 +56,9 @@
     width: 100%;
     position: relative;
 }
-
+.banner-graphic>video{
+    width: 800px;
+}
 
 .banner-graphic>img:first-child {
     width: 500px;

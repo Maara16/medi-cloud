@@ -1,5 +1,4 @@
 .navbar-container {
-    margin-top: 24px;
     display: flex;
     align-items: center;
     justify-content:space-evenly;
@@ -8,8 +7,17 @@
 .logo>img {
     width: 115px;
     cursor: pointer;
+    height: 100px;
 }
-
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo>h1 {
+    color: #174EB2;
+    cursor: pointer;
+}
 .nav-items {
     display: flex;
     gap: 30px;
